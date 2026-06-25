@@ -1,0 +1,24 @@
+{
+  "name": "my-first-backend",
+  "version": "1.0.0",
+  "description": "this is a demo project by Phusit",
+  "main": "index.js",
+  "typr": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node.js",
+    "javaScipt"
+  ],
+  "author": "Phusit",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
